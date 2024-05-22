@@ -15,7 +15,7 @@ base_manpower = 3
 
 trade_goods = grain
 
-capital = "Metrea"
+capital = ""
 
 is_city = yes
 

@@ -28,8 +28,60 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/THE_HEROINE_eventPicture.dds"
 	}
 	spriteType = {
+		name = "earth_eventPicture"
+		texturefile = "gfx/event_pictures/earth_eventPicture.dds"
+	}
+	spriteType = {
+		name = "earth_defeat_eventPicture"
+		texturefile = "gfx/event_pictures/earth_defeat_eventPicture.dds"
+	}
+	spriteType = {
+		name = "rotten_eventPicture"
+		texturefile = "gfx/event_pictures/rotten_eventPicture.dds"
+	}
+	spriteType = {
+		name = "deathdefeat_eventPicture"
+		texturefile = "gfx/event_pictures/deathdefeat_eventPicture.dds"
+	}
+	spriteType = {
+		name = "firedefeat_eventPicture"
+		texturefile = "gfx/event_pictures/firedefeat_eventPicture.dds"
+	}
+	spriteType = {
+		name = "waterdefeat_eventPicture"
+		texturefile = "gfx/event_pictures/waterdefeat_eventPicture.dds"
+	}
+	spriteType = {
+		name = "shroomdefeat_eventPicture"
+		texturefile = "gfx/event_pictures/shroomdefeat_eventPicture.dds"
+	}
+	spriteType = {
+		name = "flame_eventPicture"
+		texturefile = "gfx/event_pictures/flame_eventPicture.dds"
+	}
+	spriteType = {
+		name = "water_eventPicture"
+		texturefile = "gfx/event_pictures/water_eventPicture.dds"
+	}
+	spriteType = {
+		name = "potion_eventPicture"
+		texturefile = "gfx/event_pictures/potion_eventPicture.dds"
+	}
+	spriteType = {
+		name = "bloodlines_eventPicture"
+		texturefile = "gfx/event_pictures/bloodlines_eventPicture.dds"
+	}
+	spriteType = {
 		name = "UNDEAD_ARMY_eventPicture"
 		texturefile = "gfx/event_pictures/UNDEAD_ARMY_eventPicture.dds"
+	}
+	spriteType = {
+		name = "shield_eventPicture"
+		texturefile = "gfx/event_pictures/shield_eventPicture.dds"
+	}
+	spriteType = {
+		name = "flood_eventPicture"
+		texturefile = "gfx/event_pictures/flood_eventPicture.dds"
 	}
 	spriteType = {
 		name = "WEX_PRECIPICE_eventPicture"
@@ -166,7 +218,23 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "KOBOLD_BALRIS_eventPicture"
-		texturefile = "gfx/event_pictures/racial/KOBOLD_BALRIS_eventPicture.dds"
+		texturefile = "gfx/event_pictures/KOBOLD_BALRIS_eventPicture.dds"
+	}
+	spriteType = {
+		name = "Green_dragon_eventPicture"
+		texturefile = "gfx/event_pictures/Green_dragon_eventPicture.dds"
+	}
+	spriteType = {
+		name = "Dragonnel-1"
+		texturefile = "gfx/event_pictures/Dragonnel-1.dds"
+	}
+	spriteType = {
+		name = "hobgoblin_death"
+		texturefile = "gfx/event_pictures/hobgoblin_death.dds"
+	}
+	spriteType = {
+		name = "Dragonnelskull-1"
+		texturefile = "gfx/event_pictures/Dragonnelskull-1.dds"
 	}
 	spriteType = {
 		name = "KOBOLD_HOARD_eventPicture"

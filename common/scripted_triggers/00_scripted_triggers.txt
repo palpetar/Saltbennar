@@ -585,6 +585,10 @@ was_never_end_game_tag_trigger = {	#Country Scope
 			NOT = { was_tag = B64 } #Passionate Moredhal
 			NOT = { was_tag = B65 } #Devotee Moredhal
 			NOT = { was_tag = Z97 }	#Ravelian State
+			NOT = { was_tag = A85 } #Magisterium 
+			NOT = { was_tag = A32 } #Ibevar 
+			NOT = { was_tag = A33 } #Verne 
+			NOT = { was_tag = U01 } #Khetereta 
 			
 			NOT = { tag = Z01 }	#Anbennar
 			NOT = { tag = A79 }	#Gnomish Hierarchy
@@ -3784,7 +3788,6 @@ has_any_active_incomplete_idea_group_of_category = {
                 AND = { has_idea_group = spy_ideas         	NOT = { full_idea_group = spy_ideas } }
                 AND = { has_idea_group = diplomatic_ideas  	NOT = { full_idea_group = diplomatic_ideas } }
                 AND = { has_idea_group = trade_ideas       	NOT = { full_idea_group = trade_ideas } }
-                AND = { has_idea_group = exploration_ideas 	NOT = { full_idea_group = exploration_ideas } }
                 AND = { has_idea_group = maritime_ideas    	NOT = { full_idea_group = maritime_ideas } }
                 AND = { has_idea_group = influence_ideas   	NOT = { full_idea_group = influence_ideas } }
                 AND = { has_idea_group = court_ideas       	NOT = { full_idea_group = court_ideas } }

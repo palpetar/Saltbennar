@@ -50,7 +50,11 @@ vampire_spread_action = {
 				NOT = { has_country_flag = has_vampires_estate }
 			}
 			else = {
-				NOT = { has_country_flag = has_vampires_estate }
+				NOT = {
+					ai = no 
+					has_country_flag = has_vampires_estate
+					has_country_flag = no_free_estate_slots
+				}
 			}
 		}
 	}

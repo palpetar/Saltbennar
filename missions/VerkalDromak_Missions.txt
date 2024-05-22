@@ -28,8 +28,13 @@ verkaldromak_11 = {
 		}
 		
 		effect = {
+			add_adm_power = -80 
 			jade_mines_region = {
 				add_permanent_claim = ROOT
+			4323 = {
+			add_core = I25
+			move_capital_effect = yes
+			}
 			}
 		}
 	}
@@ -79,7 +84,6 @@ verkaldromak_11 = {
 				}
 			}	
 			any_neighbor_country = {
-				NOT = { is_subject_of = ROOT }
 				culture_group = dwarven
 				has_opinion = {
 					who = ROOT
@@ -92,7 +96,6 @@ verkaldromak_11 = {
 			random_neighbor_country = {
 				limit = {
 					culture_group = dwarven
-					NOT = { is_subject_of = ROOT }
 				}
 				add_country_modifier = {
 					name = I25_friend_in_dwarovar

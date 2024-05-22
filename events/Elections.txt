@@ -1876,6 +1876,7 @@ country_event = {
 			ruler_can_revive = yes
 			has_reform = medasi_reform
 		}
+		NOT = {has_reform = clstc_oligarchy }
 	}
 	
 	option = {

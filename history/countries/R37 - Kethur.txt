@@ -11,8 +11,7 @@ capital = 4489
 
 1435.8.5 = {
 	monarch = {
-		name = "Harimar 'the Striped'"
-		dynasty = "of the Swift Paw"
+		name = "Harimar the Striped"
 		adm = 2
 		dip = 2
 		mil = 6

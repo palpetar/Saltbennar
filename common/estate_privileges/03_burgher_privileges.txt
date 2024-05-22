@@ -2699,9 +2699,9 @@ estate_burghers_promote_burgher_bookkeeping = {
 	loyalty_scaled_conditional_modifier = {
 		trigger = { always = yes }
 		modifier = {
-			inflation_action_cost = -0.5
-			interest = -0.5
-			state_maintenance_modifier = -0.25
+			inflation_action_cost = -0.20
+			interest = -0.15
+			state_maintenance_modifier = -0.125
 		}
 	}
 	on_granted = {

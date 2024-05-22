@@ -22,7 +22,6 @@ country_event = {
 			add_nationalism = 10
 			add_unrest = 10
 			add_local_autonomy = 30
-			
 		}
 		add_country_modifier = {
 			name = corvuria_asheniande_slandered

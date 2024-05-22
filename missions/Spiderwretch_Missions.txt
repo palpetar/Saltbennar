@@ -146,7 +146,7 @@ spiderwretch_column_1 = {
 		}
 
 		trigger = {
-			diplomatic_reputation = 2.5
+			diplomatic_reputation = 3
 			custom_trigger_tooltip = {
 				tooltip = spiderwretch_teaching_our_ways_trigger_tooltip
 				OR = {
@@ -838,18 +838,7 @@ spiderwretch_column_3 = {
 			spiderwretch_blood_revealed_opportunity
 			spiderwretch_centralized_breeding
 		}
-		provinces_to_highlight = {
-			AND = {
-				trade_goods = silk
-				country_or_subject_holds = ROOT
-			}
-			NOT = { 
-				AND = {	
-					base_production = 5 
-					has_building = workshop
-				}
-			}
-		}
+
 		trigger = {
 			num_of_cavalry = 16
 			OR = {
@@ -1883,7 +1872,7 @@ spiderwretch_column_5 = {
 		effect = {
 			add_stability_or_adm_power = 1
 			add_estate_loyalty = {
-				estate = estate_church
+				estate = estate_clergy
 				loyalty = 10
 			}
 			add_country_modifier = {

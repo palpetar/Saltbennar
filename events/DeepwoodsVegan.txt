@@ -22,7 +22,7 @@ country_event = {
 				type = all
 				owner = { primary_culture = wood_elf }
 			}
-			amount = 70
+			amount = 45
 		}
 	}
 
@@ -374,7 +374,7 @@ country_event = {
 				change_government = monarchy
 				add_stability_or_adm_power = yes
 				define_ruler = {
-					dynasty = "Cenág" 
+					dynasty = "Cenï¿½g" 
 					min_age = 40
 					max_age = 90
 					culture = wood_elf
@@ -782,7 +782,7 @@ country_event = {
 				change_government = monarchy
 				add_stability_or_adm_power = yes
 				define_ruler = {
-					dynasty = "Ghúl"
+					dynasty = "Ghï¿½l"
 					min_age = 40
 					max_age = 90
 					culture = wood_elf

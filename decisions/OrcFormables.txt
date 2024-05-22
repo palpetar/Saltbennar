@@ -358,7 +358,6 @@ country_decisions = {
 		effect = {
 			if = {
 				limit = { NOT = { religion = old_bulwari_sun_cult } }
-				add_stability = -5
 			}
 			change_tag = Z57
 			hidden_effect = { restore_country_name = yes }

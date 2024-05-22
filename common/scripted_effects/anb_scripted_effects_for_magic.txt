@@ -2492,7 +2492,7 @@ magic_field_adm_cost = {
 magic_legend_lore_effect = {
 	set_ruler_flag = ruler_studying_legend_lore
 	increase_study_experience = {
-		experience = 250
+		experience = 100
 	}
 	add_dip_power = -150
 	add_mil_power = -40

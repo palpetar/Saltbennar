@@ -419,7 +419,7 @@ venetian_merchant_republic = {
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_aristocratic_idea_group = yes
 		lottery_election = yes
 		election_on_death = yes
 		is_merchant_republic = yes

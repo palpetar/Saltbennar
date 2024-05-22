@@ -22,7 +22,7 @@ cannorian = {
 		}
 		country = {
 			tolerance_heathen = 2
-			stability_cost_modifier = -0.15
+			tolerance_heretic = 1
 		}
 		country_as_secondary = {
 			improve_relation_modifier = 0.2
@@ -4150,13 +4150,14 @@ fey_religion = {
 		color = { 45 157 173 }
 		icon = 101
 		country = {
-			mages_loyalty_modifier = 0.1
+			church_loyalty_modifier = 0.1
 			advisor_cost = -0.2
 		}
 		country_as_secondary = {
 			advisor_cost = -0.1
 			yearly_corruption = -0.1
 		}
+		fervor = yes
 		on_convert = {
 			change_religion = pactseeker
 			add_prestige = -100

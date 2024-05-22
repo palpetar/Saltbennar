@@ -40,7 +40,6 @@ wyvern_rider_personality = {
 	}
 	cavalry_flanking = 0.5
 	movement_speed = 0.5
-	shock_damage = 0.2
 }
 
 glory_seeker_personality = {
@@ -53,11 +52,10 @@ glory_seeker_personality = {
 
 born_to_the_saddle_personality = {
 	allow = {
-		cavalry_fraction = 0.3
+		cavalry_fraction = 0.2
 		is_admiral = no
 	}
 	cavalry_flanking = 0.5
-	cav_to_inf_ratio = 1
 }
 
 defensive_planner_personality = {

@@ -819,6 +819,10 @@ telgeir_column_3 = {
 		
 		effect = {
 			country_event = { id = flavor_telgeir.2 }
+			add_country_modifier = {
+				name = telgier_professional_armies
+				duration = -1
+			}
 			# hidden_effect = {
 			# 	every_core_province = { 
 			# 		limit = {
@@ -977,7 +981,6 @@ telgeir_development = {
 		}
 		
 		trigger = {
-			has_institution = manufactories
 			911 = { #Telgeir
 				owned_by = ROOT
 				is_core = ROOT

@@ -8,6 +8,7 @@ monarchy_mechanic = {
 	valid_for_nation_designer = no
 	custom_attributes = {
 		enables_aristocratic_idea_group = yes
+		enables_plutocratic_idea_group = yes 
 	}
 	modifiers = {
 		nobles_influence_modifier = 0.05
@@ -121,7 +122,7 @@ plutocratic_reform = {
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_aristocratic_idea_group = yes
 	}
 	boost_income = yes
 	conditional = {
@@ -3729,7 +3730,7 @@ livonian_naval_monarchy = {
 # 	}
 # 	custom_attributes = {
 # 		enables_plutocratic_idea_group = yes
-# 		enables_aristocratic_idea_group = no
+# 		enables_aristocratic_idea_group = yes
 # 	}
 # 	boost_income = yes
 # 	conditional = {
@@ -3806,7 +3807,7 @@ livonian_naval_monarchy = {
 # 		no_stability_loss_on_monarch_death = yes
 # 	}
 # 	custom_attributes = {
-# 		enables_aristocratic_idea_group = no
+# 		enables_aristocratic_idea_group = yes
 # 		enables_divine_idea_group = yes
 # 	}
 # }
@@ -4446,7 +4447,7 @@ urviksten_autocracy_reform = {
 		unjustified_demands = -0.1
 		harsh_treatment_cost = -0.1
 		global_rebel_suppression_efficiency = 0.1
-		heir_chance = 0.5
+		heir_chance = 3
 	}
 	custom_attributes = {
 		locked_government_type = yes
@@ -5313,7 +5314,6 @@ prabhi_reform = {
 
 	legacy_equivalent = daimyo_legacy
 	modifiers = {
-		development_cost = -0.1
 		land_forcelimit = 1
 	}
 	custom_attributes = {
@@ -5347,7 +5347,7 @@ indep_prabhi_reform = {
 	}
 	legacy_equivalent = indep_daimyo_legacy
 	modifiers = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	custom_attributes = {
 		locked_government_type = yes
@@ -5433,6 +5433,7 @@ raja_reform = {
 		governing_capacity_modifier = -0.5
 		max_absolutism = -20
 		accept_vassalization_reasons = -75
+		development_cost = -0.05
 	}
 
 	custom_attributes = {
@@ -5648,7 +5649,6 @@ kharunyana_monarchy = {
 		has_parliament = yes
 		custom_attributes = {
 			blocked_call_diet = yes
-			disables_estate_nobles = yes
 		}
 	}
 }
@@ -5898,7 +5898,7 @@ reformed_goblinoid_kingdom_reform = {
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_aristocratic_idea_group = yes
 	}
 	ai = {
 		factor = 10
@@ -6190,7 +6190,7 @@ seincourt_reform = {
 	valid_for_nation_designer = no
 	fixed_rank = 1
 		modifiers = {
-		governing_capacity_modifier = -0.5
+		governing_capacity_modifier = -0.4
 		diplomatic_reputation = 2
 		improve_relation_modifier = 0.25
 		diplomatic_upkeep = 2
@@ -6584,7 +6584,7 @@ seghdihr_segbandal_reform = {
 	custom_attributes = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_aristocratic_idea_group = yes
 	}
 }
 
@@ -6794,7 +6794,7 @@ alchemical_exploration_corps_reform = {
 	custom_attributes = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_aristocratic_idea_group = yes
 		is_varaine_alchemical_corps = yes
 	}
 	ai = {
@@ -8056,7 +8056,7 @@ vanrahar_warrior_caste = {
 		}
 	}
 	modifiers = {
-		land_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.15
 		global_manpower_modifier = 0.1
 	}
 }
@@ -8142,12 +8142,9 @@ adenica_chivalric_oaths = {
 		religion = regent_court
 	}
 	modifiers = {
-		yearly_corruption = -0.1
-		cavalry_cost = -0.1 #1.35
-		nobles_loyalty_modifier = 0.1
-	}
-	custom_attributes = {
-		recruiting_generals_increases_nobles_loyalty = yes
+		spy_offence = -0.15
+		same_culture_advisor_cost = -0.2
+		yearly_corruption = -0.05
 	}
 }
 
@@ -8390,6 +8387,7 @@ tluukt_litter_reform = {
 	}
 
 	modifiers = {
+		manpower_in_culture_group_provinces = 0.33
 		manpower_in_own_culture_provinces = 0.33
 		stability_cost_modifier = -0.2
 
@@ -9927,8 +9925,6 @@ states_general_reform = {
 	potential = {
 		is_revolutionary = no
 		NOT = {
-			culture_group = harpy
-			culture_group = goblin
 			has_reform = oak_monarchy_reform
 			has_reform = hobgoblin_stratocracy_reform
 			has_reform = original_castanor_trials_reform
@@ -10266,7 +10262,7 @@ strengthened_parliament_reform = {
 	}
 	modifiers = {
 		max_absolutism = -20
-		development_cost_in_primary_culture = -0.1
+		development_cost_in_primary_culture = -0.075
 		parliament_backing_chance = 0.05
 	}
 	ai = {
@@ -11752,6 +11748,9 @@ harpy_matriarchy_reform = {
 		stability_cost_modifier = -0.10
 		can_fabricate_for_vassals = yes
 		block_introduce_heir = yes
+		monarch_admin_power = 2
+		monarch_diplomatic_power = 2
+		monarch_military_power = 2 
 	}
 
 	custom_attributes = {
@@ -11967,7 +11966,7 @@ merchant_matriarchs_reform = {
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_aristocratic_idea_group = yes
 	}
 	modifiers = {
 		stability_cost_modifier = -0.1
@@ -12018,7 +12017,7 @@ merchant_matriarchs_harpylen_reform = {
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_aristocratic_idea_group = yes
 	}
 	modifiers = {
 		stability_cost_modifier = -0.1
@@ -12333,6 +12332,9 @@ harpy_queendom_reform = {
 	legacy_equivalent = ottoman_government_legacy
 
 	modifiers = {
+		monarch_admin_power = 2
+		monarch_diplomatic_power = 2
+		monarch_military_power = 2 
 		diplomatic_upkeep = 2
 		development_cost_in_primary_culture = -0.1
 		can_fabricate_for_vassals = yes
@@ -12599,5 +12601,23 @@ exwesser_monarchy_reform = { #Exwes
 		allowed_marine_fraction = 0.1
 		num_accepted_cultures = 2
 		diplomatic_reputation = 1
+	}
+}
+scarred_kingdom_reform = {
+	icon = "misl_confederacy"
+	allow_normal_conversion = no
+	potential = {
+		tag = V11
+	}
+	legacy_equivalent = feudal_monarchy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	lock_level_when_selected = yes
+	maintain_dynasty = yes
+	modifiers = {
+		development_cost = -0.075
+		monarch_admin_power = 1
+		monarch_diplomatic_power = 1
+		monarch_military_power = 1
 	}
 }

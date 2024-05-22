@@ -15,7 +15,7 @@ base_manpower = 1
 
 trade_goods = wool
 
-capital = "Tail's End"
+capital = ""
 
 is_city = yes
 

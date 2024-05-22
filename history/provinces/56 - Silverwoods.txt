@@ -14,7 +14,7 @@ base_manpower = 3
 
 trade_goods = grain
 
-capital = "Arca Airge"
+capital = ""
 
 is_city = yes
 fort_15th = yes

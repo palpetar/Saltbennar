@@ -14,10 +14,7 @@ A73_Remove_Wex = {
 		
 		trigger = {
 			any_ally = {
-				if = {
-					limit = { eoa_is_dismantled = no }
 					is_part_of_hre = yes
-				}
 				NOT = { tag = A30 }
 				development_in_provinces = {
 					value = 50
@@ -1358,6 +1355,8 @@ A73_complete_hold = {
 			hidden_effect = {
 				clear_adventurers_organization_effect = yes
 				set_estate_privilege = estate_adventurers_organization_licensed_adventurers
+				add_stability = 2
+				add_mil_power = 200
 				country_event = {
 					id = silverforge.6
 					days = 365
@@ -1966,8 +1965,7 @@ A73_remove_ibevar = {
 					}
 				}
 			}
-			else_if = {
-				limit = { eoa_is_dismantled = no }
+			else = {
 				emperor = {
 					alliance_with = ROOT
 					custom_trigger_tooltip = {
@@ -1984,18 +1982,6 @@ A73_remove_ibevar = {
 					}
 					NOT = { tag = A30 }
 				}
-				OR = {
-					owns_core_province = 271
-					A81 = {
-						exists = yes
-						has_opinion = {
-							who = A73
-							value = 80
-						}
-					}
-				}
-			}
-			else = {
 				OR = {
 					owns_core_province = 271
 					A81 = {

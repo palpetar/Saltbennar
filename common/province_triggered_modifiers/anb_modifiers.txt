@@ -147,7 +147,7 @@ harpy_roost = {
 			has_country_modifier = harpy_military
 		}
 	}
-	local_development_cost = -0.25
+	local_development_cost = -0.35
 	local_defensiveness = 0.5
 	province_trade_power_value = 5
 
@@ -2970,7 +2970,7 @@ beikdugang_nanxin_academy = {
 						OR = {
 							has_idea_group = maritime_ideas
 							has_idea_group = naval_ideas
-							has_idea_group = exploration_ideas
+							has_idea_group = expansion_ideas
 						}
 						capital_scope = { continent = europe }
 					}
@@ -2979,7 +2979,7 @@ beikdugang_nanxin_academy = {
 					OR = {
 						has_idea_group = maritime_ideas
 						has_idea_group = naval_ideas
-						has_idea_group = exploration_ideas
+						has_idea_group = expansion_ideas
 					}
 					capital_scope = { continent = europe }
 					has_opinion = { who = PREV value = 80 }

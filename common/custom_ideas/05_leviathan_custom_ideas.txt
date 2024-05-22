@@ -79,12 +79,10 @@ leviathan_idea_adm_modifiers = {
 
 	custom_all_power_cost = {
 		all_power_cost = -0.05
-		max_level = 2
+		max_level = 1
 		level_cost_1 = 30
-		level_cost_2 = 60
-		chance = {
-			factor = 0.05
-		}
+		
+		
 	}
 
 	custom_country_admin_power = {
@@ -607,7 +605,7 @@ leviathan_idea_dip_modifiers = {
 	custom_may_explore = {
 		may_explore = yes
 		max_level = 1
-		level_cost_1 = 40
+		level_cost_1 = 20
 		chance = {
 			factor = 0.01
 		}
@@ -651,77 +649,15 @@ leviathan_idea_mil_modifiers = {
 		}
 	}
 
-	custom_infantry_fire = {
-		infantry_fire = 1
-		max_level = 1
-		level_cost_1 = 25
-		chance = {
-			factor = 0.05
-		}
-	}
+	
 
-	custom_infantry_shock = {
-		infantry_shock = 1
-		max_level = 1
-		level_cost_1 = 25
-		chance = {
-			factor = 0.05
-		}
-	}
 
-	custom_cavalry_fire = {
-		cavalry_fire = 1
-		max_level = 1
-		level_cost_1 = 25
-		chance = {
-			factor = 0.1
-			modifier = {
-				factor = 2
-				has_reform = steppe_horde
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					technology_group = andean
-					technology_group = south_american
-					technology_group = mesoamerican
-					technology_group = north_american
-				}
-			}
-		}		
-	}
 
-	custom_cavalry_shock = {
-		cavalry_shock = 1
-		max_level = 1
-		level_cost_1 = 25
-		chance = {
-			factor = 0.1
-			modifier = {
-				factor = 2
-				has_reform = steppe_horde
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					technology_group = andean
-					technology_group = south_american
-					technology_group = mesoamerican
-					technology_group = north_american
-				}
-			}
-		}	
-	}
+	
 
-	custom_artillery_shock = {
-		artillery_shock = 1
-		max_level = 2
-		level_cost_1 = 15
-		level_cost_2 = 25
-		chance = {
-			factor = 0.05
-		}
-	}
+	
+
+
 
 	custom_reserves_organisation = {
 		reserves_organisation = 0.15
@@ -745,15 +681,7 @@ leviathan_idea_mil_modifiers = {
 		}
 	}
 
-	custom_general_cost = {
-		general_cost = -0.25
-		max_level = 2
-		level_cost_1 = 15
-		level_cost_2 = 30
-		chance = {
-			factor = 0.25
-		}
-	}
+	
 
 	custom_raze_power_gain = {
 		raze_power_gain = 0.1
@@ -782,16 +710,5 @@ leviathan_idea_mil_modifiers = {
 		}
 	}
 
-	custom_extra_manpower_at_religious_war = {
-		extra_manpower_at_religious_war = yes
-		max_level = 1
-		level_cost_1 = 50
-		chance = {
-			factor = 0.15
-			modifier = {
-				factor = 2
-				dominant_religion = ROOT
-			}
-		}
-	}
+
 }

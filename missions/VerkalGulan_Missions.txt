@@ -24,7 +24,6 @@ verkalgulan_government_missions = {
 			add_dip_power = -100
 			add_mil_power = -100
 			add_corruption = -10
-			add_republican_tradition = 10
 			capital_scope = {
 				spawn_rebels = {
 					type = noble_rebels
@@ -57,10 +56,7 @@ verkalgulan_government_missions = {
 		position = 3
 		
 		trigger = {  
-			NOT = { corruption = 0.1 }
-			has_adm_advisor = yes
-			has_dip_advisor = yes
-			has_mil_advisor = yes
+			republican_tradition = 100
 		}
 		
 		effect = {
@@ -833,7 +829,7 @@ verkalgulan_the_citadel_missions = {
 			if = {
 				limit = { has_dlc = "Cradle of Civilization" }
 				define_advisor = {
-					name = "Dhûndar Korvûzad"
+					name = "Dhï¿½ndar Korvï¿½zad"
 					type = statesman
 					skill = 4
 					discount = yes
@@ -843,7 +839,7 @@ verkalgulan_the_citadel_missions = {
 			}
 			else = {
 				define_advisor = {
-					name = "Dhûndar Korvûzad"
+					name = "Dhï¿½ndar Korvï¿½zad"
 					type = statesman
 					skill = 3
 					discount = yes

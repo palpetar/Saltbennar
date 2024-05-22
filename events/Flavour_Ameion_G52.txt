@@ -2472,7 +2472,7 @@ country_event = {
 			}
 			every_country = {
 				limit = {
-					full_idea_group = exploration_ideas
+					full_idea_group = expansion_ideas
 					capital_scope = { continent = europe }
 					OR = {
 						total_development = 150
@@ -2585,7 +2585,7 @@ country_event = {
 			}
 			every_country = {
 				limit = {
-					full_idea_group = exploration_ideas
+					full_idea_group = expansion_ideas
 					capital_scope = { continent = europe }
 					OR = {
 						total_development = 150
@@ -3610,7 +3610,7 @@ country_event = {
 	}
 }
 
-#Gylíkheion Answer
+#Gylï¿½kheion Answer
 country_event = {
 	id = flavor_ameion.58
 	title = flavor_ameion.58.t

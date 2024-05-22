@@ -64,6 +64,7 @@
 # wind_planetouched_personality
 # shadow_planetouched_personality
 # life_planetouched_personality
+#estatic_insanity
 ###############################################
 # Good
 ###############################################
@@ -73,6 +74,7 @@
 just_personality = {
 	#personality_events.10
 	ruler_allow = {
+	
 		allow = {
 			NOT = { ruler_has_personality = cruel_personality }
 		}
@@ -118,7 +120,7 @@ just_personality = {
 	easy_war_chance_multiplier = 0.5
 	fair_fights = yes
 	
-	global_unrest = -2
+	global_unrest = -3
 	nation_designer_cost = 2
 
 	#Anbennar
@@ -309,7 +311,45 @@ kind_hearted_personality = {
 	nation_designer_cost = 5
 	immortal = 0
 } # 1 better
+estatic_insanity_personality = {
+	#personality_events.14
+	ruler_allow = {
+		allow = {
+			always = no
+			
+		}
+		chance = {
+			factor = 0
+		}
+	}
 
+	heir_allow = {
+		allow = {
+			always = no
+		}
+	}
+	
+	consort_allow = {
+		allow = {
+			always = no
+		}
+	}
+	allow = {
+		immortal = 0
+	}
+	
+	chance = {
+	}
+	
+	gift_chance = 65
+	alliance_acceptance = 10
+	
+	country_admin_power = 1
+	country_diplomatic_power = 1
+	country_military_power = 1
+	global_unrest = 5
+	nation_designer_cost = 5
+} # 1 better
 free_thinker_personality = {
 	#personality_events.15
 	ruler_allow = {
@@ -498,7 +538,7 @@ calm_personality = {
 	war_chance_multiplier = 0.5
 	easy_war_chance_multiplier = 0.75
 	
-	stability_cost_modifier = -0.10
+	stability_cost_modifier = -0.20
 	nation_designer_cost = 2
 	immortal = 0
 } #1 easier event
@@ -621,7 +661,7 @@ secretive_personality = {
 	
 	wants_condottieri = yes
 	
-	global_spy_defence = 0.2
+	global_spy_defence = 0.25
 	nation_designer_cost = 2
 	immortal = 0
 }
@@ -801,7 +841,7 @@ well_advised_personality = {
 	
 	war_chance_multiplier = 0.6
 	
-	advisor_pool = 1
+	advisor_pool = 4
 	nation_designer_cost = 2
 	immortal = 0
 } #2 better events
@@ -1131,7 +1171,7 @@ midas_touched_personality = {
 	wants_gold = yes
 	custom_ai_explanation = "AI_RULER_PICK_IDEA_GROUPS"
 	
-	global_tax_modifier = 0.1 
+	global_tax_modifier = 0.15
 	meritocracy = 0.15 #Anbennar
 	nation_designer_cost = 2
 	immortal = 0
@@ -3865,6 +3905,7 @@ mage_personality = {	#Powerful Mage
 		allow = {
 			#prob that mages arent banned or something
 			NOT = { ruler_culture = homunculi }
+			is_year = 1445
 			NOT = { has_ruler_flag = is_a_secret_homunculus }
 			NOT = { has_heir_flag = is_a_secret_homunculus }
 			NOT = { has_consort_flag = is_a_secret_homunculus }

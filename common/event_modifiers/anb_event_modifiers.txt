@@ -1,41 +1,37 @@
 
 strong_colonial_rush = {
 	# colonists = 1
-	colonist_placement_chance = 0.15 #To encourage not abusing colony cost reduction by putting empty colonies everywhere
-	colony_development_boost = 1 #Dev cost was very abusable by players and the AI never used it, so this should be better to help them build a decent homeland
+	global_colonial_growth = 50
+	development_cost = -0.2
 	global_regiment_cost = -0.66
 	naval_maintenance_modifier = -0.66
 	global_manpower_modifier = 0.25
 	manpower_recovery_speed = 0.25
 	land_forcelimit = 10
-	global_defender_dice_roll_bonus = 1 #hopefully this just makes them harder to kill instead of helping them gank people
+	land_morale = 0.2
 	naval_morale = 0.2
-	colony_cost_modifier = -0.5
+	global_tax_income = 24	 #Cost of a colonist
 }
 
 pioneer_rush = {
 	colonists = 1
 	global_colonial_growth = 20
 	global_tax_income = 48 # Cost of the colonists, 1 here, 1 from exploration
-	idea_cost = -0.25 #To help catch up since you lose the ideas unlocked in the country of origin
 }
 
 spawned_adventurer_boost = { # Aelantir only
 	global_regiment_cost = -0.8
 	global_manpower_modifier = 0.5
 	manpower_recovery_speed = 0.5
-	global_tax_income = 24
+	global_tax_income = 24 #Cost of a colonist
 	land_forcelimit = 20
-	global_defender_dice_roll_bonus = 1 #hopefully this just makes them harder to kill instead of helping them gank people
-	defensiveness = 0.5 #they only have a single capital fort, while their enemies very much will have more
-	garrison_size = 1
+	land_morale = 0.3
+	naval_morale = 0.15
 	global_supply_limit_modifier = 1
-	colony_cost_modifier = -0.33 #How did they not have anything to help with colonization
-	colony_development_boost = 1
 }
 
 greentide_adventurer_boost = {
-	tribal_development_growth = 1
+	prestige = 5
 }
 
 magic_enchantment_hysteria = {
@@ -62,11 +58,6 @@ birth_of_a_new_people_prov_mod = {
 
 corinite_zeal = {
 	global_missionary_strength = 0.03
-}
-
-supporting_orda_aldresia = {
-	global_manpower_modifier = -0.10
-	land_forcelimit = -10
 }
 
 subsidized_income = {
@@ -980,18 +971,20 @@ gerudia_bjarnrik_defensiveness = {
 }
 
 crovis_invasion_mod = {
-	global_regiment_cost = -0.2
+	global_regiment_cost = -0.15
+	global_manpower_modifier = 0.2
 	manpower_recovery_speed = 0.1
 	land_forcelimit = 10
+	land_morale = 0.20
+	naval_morale = 0.15
 	global_tax_income = 36
 	reduced_liberty_desire = 50
-	province_warscore_cost = -0.20
-	war_exhaustion = -0.05
+	province_warscore_cost = -0.45
 }
 
 crovis_vrorenmarch = {
+	culture_conversion_cost = -1
 	reduced_liberty_desire = 25
-	development_cost = -0.1
 }
 
 grombar_crovis_crushed = {
@@ -1092,9 +1085,6 @@ gray_orc_fearsome_conqueror = {
 	prestige_decay = -0.01
 	vassal_income = 0.25
 	diplomatic_reputation = 1
-}
-gray_orc_leader_of_the_gray_orcs = {
-	colonists = 1
 }
 orc_conversion_zeal = {
 	global_missionary_strength = 0.10
@@ -2049,8 +2039,7 @@ reveria_reverian_boatsmiths = {
 
 # For Marrhold and Counts League, tone this down if they suck now
 greentide_colonist_boost = {
-	global_tax_income = 24
-	colonist_placement_chance = 0.2
+	prestige = 1
 }
 
 # For the Magnate Uprising disaster

@@ -332,7 +332,7 @@ penal_colonies_reform = {
 		}
 	}
 	trigger = {
-		has_idea_group = exploration_ideas
+		has_idea_group = expansion_ideas
 	}
 	modifiers = {
 		expel_minorities_cost = -1
@@ -1636,6 +1636,7 @@ secure_clergy_power_reform = {
 	}
 	modifiers = {
 		church_influence_modifier = 0.05
+		adm_advisor_cost = -0.1
 	}
 	effect = {
 		hidden_effect = {
@@ -5589,7 +5590,6 @@ new_world_exploitation_reform = {
 	trigger = {
 		OR = {
 			full_idea_group = expansion_ideas
-			full_idea_group = exploration_ideas
 		}
 		if = {
 			limit = {
@@ -5740,8 +5740,8 @@ embrace_the_economic_theory_reform = {
 		}
 	}
 	modifiers = {
-		interest = -0.5
-		inflation_reduction = 0.2
+		interest = -0.25
+		inflation_reduction = 0.15
 	}
 	ai = {
 		factor = 1
@@ -5761,7 +5761,7 @@ war_economy_reform = {
 	}
 	modifiers = {
 		war_taxes_cost_modifier = -0.5
-		global_regiment_cost = -0.1
+		global_regiment_cost = -0.05
 		global_ship_cost = -0.1
 	}
 	ai = {
@@ -6097,10 +6097,7 @@ dwarovar_ensure_worker_rights = {
 		NOT = { is_or_was_tag = { tag = I08 } }
 	}
 	trigger = { 
-		custom_trigger_tooltip = {
-			tooltip = dwarovar_ensure_worker_rights_tooltip
-			has_country_flag = hoardcurse_happened
-		}
+	
 	}
 	lock_level_when_selected = yes
 

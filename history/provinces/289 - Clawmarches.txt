@@ -14,7 +14,7 @@ base_manpower = 3
 
 trade_goods = cloth
 
-capital = "Arca Rial"
+capital = ""
 
 is_city = yes
 

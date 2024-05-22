@@ -2312,8 +2312,44 @@ cloves = {
 			}
 		}
 		modifier = {
-			factor = 5
-			area = velanynosy_area
+			factor = 16
+			area = ibibakely_area
+		}
+		modifier = {
+			factor = 16
+			area = tebolelmasi_area
+		}
+		modifier = {
+			factor = 16
+			area = zohejirofo_area
+		}
+		modifier = {
+			factor = 16
+			area = tebajik_area
+		}
+		modifier = {
+			factor = 16
+			area = rambavatra_area
+		}
+		modifier = {
+			factor = 16
+			area = onkelynofi_area
+		}
+		modifier = {
+			factor = 16
+			area = pikakely_area
+		}
+		modifier = {
+			factor = 10
+			area = far_uelos_isles_area
+		}
+		modifier = {
+			factor = 10
+			area = sil_berkhens_land_area
+		}
+		modifier = {
+			factor = 1000
+			province_id = 6632
 		}
 		modifier = {
 			factor = 2.0

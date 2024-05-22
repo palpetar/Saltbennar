@@ -139,6 +139,7 @@ monarchy = {
 				dynastic_castanor_trials_reform
 				original_castanor_trials_reform
 				karashari_empire
+				scarred_kingdom_reform 
 				ogre_kingdom
 				ogre_empire
 				great_ogre_horde
@@ -858,6 +859,9 @@ republic = {
 				# american_republic
 				# federal_republic
 				colonial_government
+				clstc_oligarchy
+				free_republic_reform
+				human_xhazoblukt_reform
 				crown_colony_government
 				private_enterprise_colony_government
 				self_governing_colony_government
@@ -1333,7 +1337,6 @@ republic = {
 
 				#Anbennar
 				feiten_keju
-				lake_emissary_liberty
 			}
 		}
 		question_of_dictatorship = { #Tier 13

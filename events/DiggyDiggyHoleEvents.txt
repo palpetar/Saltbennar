@@ -2387,31 +2387,31 @@ country_event = {
 					}
 					AND = {
 						capital_scope = { has_province_modifier = dig_4 }
-						NOT = { treasury = 700 }
+						NOT = { treasury = 600 }
 					}
 					AND = {
 						capital_scope = { has_province_modifier = dig_5 }
-						NOT = { treasury = 1000 }
+						NOT = { treasury = 900 }
 					}
 					AND = {
 						capital_scope = { has_province_modifier = dig_6 }
-						NOT = { treasury = 1300 }
+						NOT = { treasury = 1100 }
 					}
 					AND = {
 						capital_scope = { has_province_modifier = dig_7 }
-						NOT = { treasury = 1600 }
+						NOT = { treasury = 1150 }
 					}
 					AND = {
 						capital_scope = { has_province_modifier = dig_8 }
-						NOT = { treasury = 2000 }
+						NOT = { treasury = 1750 }
 					}
 					AND = {
 						capital_scope = { has_province_modifier = dig_9 }
-						NOT = { treasury = 2300 }
+						NOT = { treasury = 1950 }
 					}
 					AND = {
 						capital_scope = { has_province_modifier = dig_10 }
-						NOT = { treasury = 2500 }
+						NOT = { treasury = 2125 }
 					}
 				}
 			}
@@ -6945,7 +6945,7 @@ country_event = {
 		}
 		else_if = {
 			limit = { ai = no }
-			add_treasury = -350
+			add_treasury = -300
 		}
 		hidden_effect = {
 			set_country_flag = dig_through
@@ -7014,7 +7014,7 @@ country_event = {
 		}
 		else_if = {
 			limit = { ai = no }
-			add_treasury = -750
+			add_treasury = -600
 		}
 		hidden_effect = {
 			set_country_flag = dig_through
@@ -7081,7 +7081,7 @@ country_event = {
 		}
 		else_if = {
 			limit = { ai = no }
-			add_treasury = -2250
+			add_treasury = -1500
 		}
 		hidden_effect = {
 			set_country_flag = dig_through
@@ -7147,7 +7147,7 @@ country_event = {
 		}
 		else_if = {
 			limit = { ai = no }
-			add_treasury = -3750
+			add_treasury = -2500
 		}
 		hidden_effect = {
 			set_country_flag = dig_through
@@ -7212,7 +7212,7 @@ country_event = {
 		}
 		else_if = {
 			limit = { ai = no }
-			add_treasury = -5250
+			add_treasury = -4500
 		}
 		hidden_effect = {
 			set_country_flag = dig_through
@@ -7277,7 +7277,7 @@ country_event = {
 		}
 		else_if = {
 			limit = { ai = no }
-			add_treasury = -5500
+			add_treasury = -5000
 		}
 		hidden_effect = {
 			set_country_flag = dig_through

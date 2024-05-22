@@ -15,7 +15,7 @@ base_manpower = 1
 
 trade_goods = salt
 
-capital = "Fenstone"
+capital = ""
 
 is_city = yes
 

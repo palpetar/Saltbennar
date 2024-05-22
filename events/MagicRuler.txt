@@ -4587,8 +4587,8 @@ country_event = {
 		name = magic_ruler.4.j
 		trigger = {
 			has_ruler_flag = enchantment_2
-			adm_power = 150
-			mil_power = 80
+			adm_power = 60
+			mil_power = 5
 			NOT = { has_ruler_modifier = magic_realm_enchantment_modify_memories_overlook_national_blunders }
 		}
 		ai_chance = {
@@ -4601,8 +4601,8 @@ country_event = {
 			}
 		}
 
-		add_adm_power = -150
-		add_mil_power = -80
+		add_adm_power = -60
+		add_mil_power = -5
 		magic_casted_spell = yes
 		if = {
 			limit = { has_country_flag = Y63_enchantment_upgrade }
@@ -4638,8 +4638,8 @@ country_event = {
 		custom_tooltip = magic_effect_separator_tt
 
 		tooltip = {
-			add_adm_power = -150
-			add_mil_power = -80
+			add_adm_power = -60
+			add_mil_power = -5
 			if = {
 				limit = { has_country_flag = Y63_enchantment_upgrade }
 				add_ruler_modifier = {
@@ -4662,8 +4662,8 @@ country_event = {
 			ai = no
 			has_ruler_flag = enchantment_2
 			OR = {
-				NOT = { adm_power = 150 }
-				NOT = { mil_power = 80 }
+				NOT = { adm_power = 60 }
+				NOT = { mil_power = 5 }
 				has_ruler_modifier = magic_realm_enchantment_modify_memories_overlook_national_blunders
 			}
 		}
@@ -4684,8 +4684,8 @@ country_event = {
 		custom_tooltip = magic_effect_separator_tt
 
 		tooltip = {
-			add_adm_power = -150
-			add_mil_power = -80
+			add_adm_power = -60
+			add_mil_power = -5
 			if = {
 				limit = { has_country_flag = Y63_enchantment_upgrade }
 				add_ruler_modifier = {
@@ -4708,8 +4708,8 @@ country_event = {
 		name = magic_ruler.4.k
 		trigger = {
 			has_ruler_flag = enchantment_2
-			adm_power = 150
-			mil_power = 80
+			adm_power = 60
+			mil_power = 20
 			NOT = { has_ruler_modifier = magic_realm_enchantment_modify_memories_encourage_subservience }
 		}
 		ai_chance = {
@@ -4722,8 +4722,8 @@ country_event = {
 			}
 		}
 
-		add_adm_power = -150
-		add_mil_power = -80
+		add_adm_power = -60
+		add_mil_power = -20
 		magic_casted_spell = yes
 		if = {
 			limit = { has_country_flag = Y63_enchantment_upgrade }
@@ -4759,8 +4759,8 @@ country_event = {
 		custom_tooltip = magic_effect_separator_tt
 
 		tooltip = {
-			add_adm_power = -150
-			add_mil_power = -80
+			add_adm_power = -60
+			add_mil_power = -20
 			if = {
 				limit = { has_country_flag = Y63_enchantment_upgrade }
 				add_ruler_modifier = {
@@ -4783,8 +4783,8 @@ country_event = {
 			ai = no
 			has_ruler_flag = enchantment_2
 			OR = {
-				NOT = { adm_power = 150 }
-				NOT = { mil_power = 80 }
+				NOT = { adm_power = 60 }
+				NOT = { mil_power = 20 }
 				has_ruler_modifier = magic_realm_enchantment_modify_memories_encourage_subservience
 			}
 		}
@@ -4805,8 +4805,8 @@ country_event = {
 		custom_tooltip = magic_effect_separator_tt
 
 		tooltip = {
-			add_adm_power = -150
-			add_mil_power = -80
+			add_adm_power = -60
+			add_mil_power = -20
 			if = {
 				limit = { has_country_flag = Y63_enchantment_upgrade }
 				add_ruler_modifier = {

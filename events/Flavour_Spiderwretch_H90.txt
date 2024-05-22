@@ -839,7 +839,7 @@ country_event = {
 		name = flavour_spiderwretch_silky_road.a1
 		trigger = {
 			NOT = {
-				has_country_fæag = spiderwretch_silky_road_silkstone_option
+				has_country_f?ag = spiderwretch_silky_road_silkstone_option
 			}
 		}
 		ai_chance = { factor = 33 }
@@ -1114,7 +1114,7 @@ country_event = {
 	option = {
 		name = flavour_spiderwretch_caravan_end_event.a
 		ai_chance = { factor = 100 }
-		currency_effect = { currency = treasury takeFrom = ROOT which = spiderwretch_caravan_variable }
+		add_treasury = spiderwretch_caravan_variable
 
 		hidden_effect = {
 			clr_country_flag = H90_arrival_event_option2

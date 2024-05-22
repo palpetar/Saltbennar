@@ -14,7 +14,7 @@ base_manpower = 3
 
 trade_goods = grain
 
-capital = "Valateria"
+capital = ""
 
 is_city = yes
 

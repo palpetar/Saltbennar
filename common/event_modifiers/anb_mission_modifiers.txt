@@ -712,7 +712,7 @@ mag_tower_five = {
 	trade_goods_size = 0.5
 	global_tax_modifier = 0.05
 	production_efficiency = 0.025
-	all_power_cost = -0.025
+	all_power_cost = -0.0125
 }
 
 mag_tower_six = {
@@ -722,7 +722,7 @@ mag_tower_six = {
 	trade_goods_size = 0.75
 	global_tax_modifier = 0.075
 	production_efficiency = 0.05
-	all_power_cost = -0.05
+	all_power_cost = -0.025
 }
 
 mag_tower_seven = {
@@ -732,7 +732,7 @@ mag_tower_seven = {
 	trade_goods_size = 1
 	global_tax_modifier = 0.1
 	production_efficiency = 0.075
-	all_power_cost = -0.075
+	all_power_cost = -0.0375
 }
 
 mag_tower_eight = {
@@ -741,7 +741,7 @@ mag_tower_eight = {
 	trade_goods_size = 1.5
 	global_tax_modifier = 0.1
 	production_efficiency = 0.1
-	all_power_cost = -0.1
+	all_power_cost = -0.05
 }
 
 magisterium_same_dynast_buff = {
@@ -895,8 +895,8 @@ nimscodd_kobold_cores = {
 }
 
 hierarchy_rebuild_oddansbay_modifier = {
-	development_cost = -0.15
-	administrative_efficiency = -0.3
+	development_cost = -0.05
+	administrative_efficiency = -0.10
 }
 
 hierarchy_manpower_modfier = {
@@ -2572,11 +2572,11 @@ dameria_reforged = {
 }
 
 damerian_army = {
-	infantry_power = 0.2
+	infantry_power = 0.10
 }
 
 dameria_safeguard_empire = {
-	shock_damage_received = -0.3
+	shock_damage_received = -0.10
 }
 
 # Wesdam
@@ -2718,6 +2718,10 @@ orc_first_cannons = {
 #Grombar Modifiers
 
 grombar_agreement_with_cedevik = {
+	global_tax_income = 36
+	trade_efficiency = -0.2
+	global_trade_power = -0.2
+	global_trade_goods_size_modifier = 0.05
 }
 
 grombar_independent_trade_centre = {
@@ -2758,7 +2762,8 @@ grombar_vrorenmarch_legacy = {
 }
 
 grombar_united_tribes = {
-	global_unrest = -2
+	land_morale = 0.1
+	land_maintenance_modifier = -0.2
 }
 
 grombar_steel_grip = {
@@ -2916,7 +2921,7 @@ khozrugan_loyal_clans = {
 }
 
 khozrugan_defeated_pretender = {
-	discipline = 0.1
+	discipline = 0.05
 }
 
 khozrugan_unifiers_of_orcs = {
@@ -2948,11 +2953,11 @@ khozrugan_influx_of_warriors = {
 }
 
 khozrugan_first_victory = {
-	manpower_recovery_speed = 0.25
+	manpower_recovery_speed = 0.20
 }
 
 khozrugan_crushed_enemy = {
-	shock_damage = 0.25
+	shock_damage = 0.20
 }
 
 khozrugan_impaled_slavers = {
@@ -3001,7 +3006,7 @@ khozrugan_most_desired_city_in_the_world = {
 }
 
 khozrugan_worg_cavalry = {
-	cavalry_power = 0.33
+	cavalry_power = 0.25
 }
 
 khozrugan_organized_army = {
@@ -4732,50 +4737,60 @@ kobold_avenged_on_barbarism = {
 
 kobold_hoard_1 = {
 	picture = "kobold_hoard"
-	trade_goods_size = 0.2
+	trade_goods_size = 0.4
 }
 
 kobold_hoard_2 = {
 	picture = "kobold_hoard"
-	trade_goods_size = 0.5
+	trade_goods_size = 1.0
 }
 
 kobold_hoard_3 = {
 	picture = "kobold_hoard"
-	trade_goods_size = 0.75
+	trade_goods_size = 1.5
 }
 
 kobold_hoard_4 = {
 	picture = "kobold_hoard"
-	trade_goods_size = 1
+	trade_goods_size = 2
 }
 
 kobold_hoard_5 = {
 	picture = "kobold_hoard"
-	trade_goods_size = 1.5
+	trade_goods_size = 3
 }
 
 kobold_hoard_6 = {
 	picture = "kobold_hoard"
-	trade_goods_size = 2
+	trade_goods_size = 4
 }
 
 kobold_hoard_7 = {
 	picture = "kobold_hoard"
-	trade_goods_size = 2.5
+	trade_goods_size = 5
 }
 
 kobold_hoard_8 = {
 	picture = "kobold_hoard"
-	trade_goods_size = 3
+	trade_goods_size = 6
 }
 
 kobold_hoard_9 = {
 	picture = "kobold_hoard"
-	trade_goods_size = 4
+	trade_goods_size = 7
 }
 
 kobold_hoard_10 = {
+	picture = "kobold_hoard"
+	trade_goods_size = 8
+}
+
+kobold_hoard_11 = {
+	picture = "kobold_hoard"
+	trade_goods_size = 10
+}
+
+the_dragon_gift = {
 	picture = "kobold_hoard"
 	trade_goods_size = 5
 }
@@ -4918,6 +4933,7 @@ telgeir_dwarven_mining = {
 
 telgeir_drill = {
 	drill_gain_modifier = 0.5
+	drill_decay_modifier = -0.25
 }
 
 telgeir_aranmas_grain_mod = {
@@ -5211,8 +5227,7 @@ urviksten_ebonsteel_forge = {
 	province_trade_power_value = 5
 }
 urviksten_streamlined_ebonsteel = {
-	land_maintenance_modifier = -0.15
-	is_carolean_modifier = yes
+    amount_of_carolean = 0.1
 }
 urviksten_far_gerudian_rangers = {
 	movement_speed = 0.1
@@ -6530,7 +6545,7 @@ blademarches_bal_ouord_fortifications = {
 }
 
 blademarches_hegemon_of_the_south = {
-	global_regiment_cost = -0.20
+	global_regiment_cost = -0.15
 }
 
 blademarches_grave_of_elecast = {
@@ -6560,7 +6575,7 @@ blademarches_home_of_bladestewards = {
 }
 
 blademarches_bright_hussars = {
-	cav_to_inf_ratio = 0.25
+	cav_to_inf_ratio = 0.15
 	cavalry_shock = 0.25
 	cavalry_cost = 0.1
 }
@@ -6767,10 +6782,10 @@ adenica_admin_3 = {
 }
 adenica_first_steps = {
 	land_morale = 0.05
-	cavalry_power = 0.1
+	cavalry_power = 0.05
 }
 adenica_restoration = {
-	land_morale = 0.1
+	land_morale = 0.05
 	legitimacy = 1
 }
 adenica_page = {
@@ -6787,8 +6802,8 @@ adenica_knight = {
 	monarch_military_power = 1
 }
 adenica_best_cav = {
-	cavalry_power = 0.1
-	shock_damage = 0.1
+	cavalry_power = 0.05
+	shock_damage = 0.05
 }
 adenica_forging_skylance = {
 	country_military_power = -2
@@ -7109,10 +7124,7 @@ corvuria_fearful_army = {
 	yearly_army_professionalism = 0.01
 	global_regiment_cost = 0.1
 }
-corvuria_naval_expansion = {
-	local_build_cost = -0.2
-	ship_recruit_speed = -0.25
-}
+
 ###Roilsard Missions
 roilsard_state_manpower = {
 	local_manpower_modifier = 0.05
@@ -9120,6 +9132,7 @@ obrtrol_drums_of_war = {
 	naval_morale = 0.10
 	siege_ability = 0.05
 	land_forcelimit = 2
+	war_exhaustion = -0.15
 }
 
 obrtrol_centralized_advice = {
@@ -9341,7 +9354,7 @@ obrtrol_yummy_soup = {
 }
 
 obrtrol_draell_labour = {
-	local_development_cost = -0.65
+	local_development_cost = -0.80
 }
 
 obrtrol_expanded_infrastructure = {
@@ -10141,7 +10154,7 @@ Y58_lot_dekkhang_custodians_borcs = {
 }
 
 Y58_gold_production = {
-	trade_goods_size_modifier = 0.2
+	trade_goods_size_modifier = 0.3
 }
 
 #Y91 BIRD RIDERS
@@ -11874,6 +11887,7 @@ surakes_paradise_garden = {
 	local_development_cost = -0.1
 	local_governing_cost = -0.15
 	local_unrest = -1
+	picture = "paradise_garden"
 }
 
 surakes_sun_garden = {
@@ -11882,6 +11896,7 @@ surakes_sun_garden = {
 	republican_tradition = 0.3
 	devotion = 1
 	state_maintenance_modifier = -0.15
+	picture = "sun_garden"
 }
 
 surakes_nationalcult_modifier = {
@@ -12165,7 +12180,7 @@ A90_notestock_3 = {
 }
 
 A90_rebuild_songbridges = {
-	local_development_cost = -0.10
+	development_cost = -0.10
 }
 
 A90_bardic_college_1 = {
@@ -12187,28 +12202,28 @@ A90_cardesti_haven = {
 }
 
 A90_bardic_influence_1 = {
-	land_morale = 0.025
-	discipline = 0.025
+	land_morale = 0.01
+	discipline = 0.01
 }
 
 A90_bardic_influence_2 = {
-	land_morale = 0.05
-	discipline = 0.05
+	land_morale = 0.025
+	discipline = 0.02
 }
 
 A90_bardic_influence_3 = {
-	land_morale = 0.075
-	discipline = 0.05
+	land_morale = 0.05
+	discipline = 0.03
 }
 
 A90_bardic_influence_4 = {
-	land_morale = 0.10
-	discipline = 0.075
+	land_morale = 0.075
+	discipline = 0.04
 }
 
 A90_bardic_influence_5 = {
-	land_morale = 0.15
-	discipline = 0.10
+	land_morale = 0.10
+	discipline = 0.05
 }
 
 A90_imperial_ambitions = {
@@ -13062,7 +13077,7 @@ moredhal_dwarovar_bastion = {
 	garrison_growth = 0.15
 }
 moredhal_grudgeknight_HQ = {
-	global_regiment_cost = -0.2
+	global_regiment_cost = -0.15
 	army_tradition = 0.1
 }
 moredhal_devotee_HQ = {
@@ -15705,16 +15720,16 @@ azkare_phonan_bonus_small = {
 	cavalry_cost = -0.05
 }
 azkare_bokai_bonus_massive = {
-	global_manpower_modifier = 0.33
-}
-azkare_bokai_bonus_big = {
 	global_manpower_modifier = 0.20
 }
-azkare_bokai_bonus_medium = {
+azkare_bokai_bonus_big = {
 	global_manpower_modifier = 0.15
 }
-azkare_bokai_bonus_small = {
+azkare_bokai_bonus_medium = {
 	global_manpower_modifier = 0.10
+}
+azkare_bokai_bonus_small = {
+	global_manpower_modifier = 0.05
 }
 azkare_binhrung_bonus_massive = {
 	province_warscore_cost = -0.2
@@ -15969,16 +15984,16 @@ azkare_sobhagand_bonus_small = {
 	build_cost = -0.05
 }
 azkare_shandibad_bonus_massive = {
-	land_maintenance_modifier = -0.20
-}
-azkare_shandibad_bonus_big = {
 	land_maintenance_modifier = -0.15
 }
-azkare_shandibad_bonus_medium = {
+azkare_shandibad_bonus_big = {
 	land_maintenance_modifier = -0.10
 }
-azkare_shandibad_bonus_small = {
+azkare_shandibad_bonus_medium = {
 	land_maintenance_modifier = -0.05
+}
+azkare_shandibad_bonus_small = {
+	land_maintenance_modifier = -0.025
 }
 azkare_rajnadhid_bonus_massive = {
 	dip_tech_cost_modifier = -0.15
@@ -16005,16 +16020,16 @@ azkare_khedarid_bonus_small = {
 	mil_tech_cost_modifier = -0.025
 }
 azkare_shamadhan_bonus_massive = {
-	global_regiment_cost = -0.15
-}
-azkare_shamadhan_bonus_big = {
 	global_regiment_cost = -0.10
 }
-azkare_shamadhan_bonus_medium = {
+azkare_shamadhan_bonus_big = {
 	global_regiment_cost = -0.075
 }
-azkare_shamadhan_bonus_small = {
+azkare_shamadhan_bonus_medium = {
 	global_regiment_cost = -0.05
+}
+azkare_shamadhan_bonus_small = {
+	global_regiment_cost = -0.025
 }
 azkare_kamtarhid_bonus_massive = {
 	adm_tech_cost_modifier = -0.15
@@ -16197,19 +16212,19 @@ azkare_royal_harimari_bonus_small = {
 	administrative_efficiency = 0.025
 }
 azkare_swallow_command_bonus_massive = {
-	mercenary_discipline = 0.15
-}
-azkare_swallow_command_bonus_big = {
 	mercenary_discipline = 0.10
 }
-azkare_swallow_command_bonus_medium = {
+azkare_swallow_command_bonus_big = {
 	mercenary_discipline = 0.05
+}
+azkare_swallow_command_bonus_medium = {
+	mercenary_discipline = 0.025
 }
 azkare_swallow_command_bonus_small = {
 	mercenary_discipline = 0.025
 }
 azkare_fenghuang_command_bonus_massive = {
-	discipline = 0.1
+	discipline = 0.075
 }
 azkare_fenghuang_command_bonus_big = {
 	discipline = 0.05
@@ -16233,16 +16248,16 @@ azkare_pezarangi_harpy_bonus_small = {
 	movement_speed = 0.05
 }
 azkare_nephrite_dwarf_bonus_massive = {
-	fire_damage_received = -0.20
-}
-azkare_nephrite_dwarf_bonus_big = {
 	fire_damage_received = -0.15
 }
-azkare_nephrite_dwarf_bonus_medium = {
+azkare_nephrite_dwarf_bonus_big = {
 	fire_damage_received = -0.10
 }
-azkare_nephrite_dwarf_bonus_small = {
+azkare_nephrite_dwarf_bonus_medium = {
 	fire_damage_received = -0.05
+}
+azkare_nephrite_dwarf_bonus_small = {
+	fire_damage_received = -0.025
 }
 azkare_goldscale_kobold_bonus_massive = {
 	global_unrest = -2.5
@@ -20350,7 +20365,7 @@ bulwar_order_of_judges_seat = {
 }
 
 bulwar_population_growth = {
-	development_cost = -0.10
+	local_development_cost = -0.10
 }
 
 bulwar_fula_in_power = {
@@ -21716,6 +21731,12 @@ mulen_defensive_roost = {
 	local_hostile_attrition = 1
 }
 
+mulen_plains_unforbidden = {
+	colonists = 1
+	colonist_placement_chance = 0.05
+	global_colonial_growth = 25
+}
+
 mulen_fight_centaurs = {
 	unjustified_demands = -0.25
 }
@@ -21886,6 +21907,7 @@ mulen_hanging_city_baths = {
 }
 
 mulen_hanging_city_gardens = {
+	picture = "sun_garden"
 	local_development_cost = -0.4
 	supply_limit = 20
 	allowed_num_of_buildings = 1
@@ -27135,14 +27157,6 @@ anb_manufactory_discount_3 = {
 }
 anb_manufactory_discount_4 = {
 	local_development_cost = -0.4
-}
-
-memory_of_skylance = {
-	liberty_desire = 75
-}
-
-sentinels_of_the_usurper = {
-	land_morale = -0.1
 }
 L03_war_for_nyokyora = {
 warscore_cost_vs_other_religion = -0.10

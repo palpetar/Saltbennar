@@ -427,7 +427,7 @@ sarisung_missions = {
 		position = 1
 
 		trigger = {
-			diplomatic_reputation = 2
+			diplomatic_reputation = 0
 		}
 
 		effect = {

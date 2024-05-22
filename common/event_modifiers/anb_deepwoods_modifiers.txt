@@ -92,9 +92,7 @@ cyranvar_advisor = {
 cyranvar_only_the_best = {
 	discipline = 0.05
 	infantry_power = 0.15
-	land_maintenance_modifier = 0.25
-	global_manpower_modifier = -0.25
-	manpower_recovery_speed = -0.2
+	land_maintenance_modifier = 0.20
 }
 
 cyranvar_one_of_many = {
@@ -110,9 +108,9 @@ cyranvar_the_model_elf = {
 	land_morale = 0.05
 	global_trade_goods_size_modifier = 0.05
 	global_unrest = -1
-	development_cost = -0.1
+	development_cost = -0.05
 	num_accepted_cultures = -3
-	core_creation = 1
+	core_creation = 0.10
 }
 
 cyranvar_the_cosmopolitan_elf = {
@@ -250,7 +248,7 @@ quest_for_new_heir = {
 
 # deepwoods flavor events
 deepwoods_disappeared_villages = {
-	local_development_cost = 0.25
+	local_development_cost = 0.05
 }
 deepwoods_fey_marked_villages = {
   trade_goods_size_modifier = 0.1

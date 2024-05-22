@@ -1,8 +1,8 @@
 
 #Värmland | Varivar
 
-owner = A30
-controller = A30
+owner = Z42
+controller = Z42
 add_core = Z42
 culture = moon_elf
 religion = regent_court
@@ -15,7 +15,7 @@ base_manpower = 4
 
 trade_goods = naval_supplies
 
-capital = "Bluewood"
+capital = ""
 
 is_city = yes
 

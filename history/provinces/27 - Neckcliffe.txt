@@ -14,7 +14,7 @@ base_production = 5
 base_manpower = 3
 
 trade_goods = livestock
-capital = "Necevite"
+capital = ""
 
 is_city = yes
 

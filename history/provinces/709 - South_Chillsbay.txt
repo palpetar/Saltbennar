@@ -13,11 +13,11 @@ base_manpower = 3
 
 trade_goods = fish
 
-capital = "Whitwhic"
+capital = ""
 
 is_city = yes
 
 add_permanent_province_modifier = {
-	name = orcish_minority_oppressed_large
+	name = orcish_minority_integrated_large
 	duration = -1
 }
