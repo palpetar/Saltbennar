@@ -1,3 +1,3 @@
 # Saltbennar
 
-# Anbennar mod for Saltdox
+Anbennar mod for Saltdox
