@@ -1,0 +1,14 @@
+capital = "Nanaye"
+
+owner = F65
+controller = F65
+add_core = F65
+culture = binwarji
+religion = fangaulan_pantheon
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = iron

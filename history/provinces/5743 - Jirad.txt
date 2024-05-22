@@ -1,0 +1,18 @@
+owner = L14
+controller = L14
+add_core = L14
+culture = kaino
+religion = fangaulan_pantheon
+
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+trade_goods = gems
+center_of_trade = 1
+
+capital = ""
+
+is_city = yes

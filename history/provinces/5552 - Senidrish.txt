@@ -1,0 +1,12 @@
+#No previous file for Banten 
+owner = L67
+controller = L67
+add_core = L67
+culture = yeteferen
+religion = sky_domain
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = gems
+capital = "" 
+is_city = yes

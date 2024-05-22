@@ -1,0 +1,18 @@
+owner = L08
+controller = L08
+add_core = L08
+add_core = L24
+culture = mantimatu
+religion = fangaulan_pantheon
+
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 1
+
+trade_goods = livestock
+
+capital = ""
+
+is_city = yes

@@ -1,0 +1,18 @@
+owner = L10
+controller = L10
+add_core = L10
+add_core = L10
+culture = zuvunwa
+religion = noukahi_pantheon
+
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = livestock
+
+capital = ""
+
+is_city = yes
